@@ -1,14 +1,11 @@
 ---
-title: 'Writing Great Unit Tests'
-date: 'March 12, 2021'
-excerpt: 'We will look at 10 simple tips and tricks on writing unit tests in JavaScript'
+title: 'Creating a Next Blog'
+date: 'Oct 26, 2021'
+excerpt: 'What I learned in creating my first blog with Next.js'
 cover_image: '/images/posts/img7.jpg'
 ---
 
-Lorem [markdownum](http://insunt.org/inpositaque), et sanguine rutilos dixit
-nigro cornu genus duris linguae. Super hic deus ego adveniens nullumque Venerem
-equis aurem aliisque celare densis dextramque similis **post**: mihi rexerat;
-bis.
+For my first assignment I decided to create a blog with Next.js. I really had no idea where to begin, so I decided to go with the tutorial I had seen by [Brad Traversy](https://youtu.be/MrjeefD8sac). I was really impressed by the simplicity of the tutorial, so I decided to follow it. However, that doesn't I totally understood everything I did. No doubt, I want to go through the tutorial again. 
 
 1. Scinditur annos
 2. Talia verba
