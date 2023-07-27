@@ -25,14 +25,14 @@ img {
   border-radius: 10px;
 }
 
-header {
+header, footer {
   background: steelblue;
   color: #fff;
   padding: 5px;
   margin-bottom: 40px;
 }
 
-header a {
+header, footer a {
   color: #fff;
 }
 
