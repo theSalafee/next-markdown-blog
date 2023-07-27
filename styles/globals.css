@@ -25,11 +25,18 @@ img {
   border-radius: 10px;
 }
 
-header, footer {
+header {
   background: steelblue;
   color: #fff;
   padding: 5px;
   margin-bottom: 40px;
+}
+
+footer {
+  background: steelblue;
+  color: #fff;
+  padding: 5px;
+  margin-top: 40px
 }
 
 header, footer a {
@@ -81,6 +88,7 @@ header, footer a {
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
 }
 
 .card-page {
