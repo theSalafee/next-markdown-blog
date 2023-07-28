@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Outfit:wght@400;700&display=swap");
+
+// $primary-color: steelblue;
+$primary-color: #4169e1;
+
+$lato-font: "Lato", sans-serif;
+$outfit-font: "Outfit", sans-serif;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    // font-family: "Poppins", sans-serif;
+    font-family: $lato-font;
+}
+
+p {
+    margin: 15px 0;
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+header,
+footer {
+    background: $primary-color;
+    color: #fff;
+    padding: 5px;
+}
+
+header,
+footer a {
+    color: #fff;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.container {
+    max-width: 768px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.btn {
+    display: inline-block;
+    background: $primary-color;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        transform: scale(0.98);
+    }
+}
+
+.btn-back {
+    background: #f4f4f4;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+
+    @media (max-width: 500px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.card {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+
+.card-page {
+    padding: 15px 30px;
+}
+
+.post-title {
+    margin: 10px 0;
+}
+
+.post-date {
+    background: #f4f4f4;
+    margin-bottom: 20px;
+    padding: 3px 10px;
+}
+
+.post-body {
+    ul,
+    ol {
+        font-size: 110%;
+        line-height: 2.3;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    pre {
+        background: #f4f4f4;
+        padding: 20px;
+        margin: 20px 0;
+        line-height: 2.3;
+        overflow: auto;
+    }
+}
